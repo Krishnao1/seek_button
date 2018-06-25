@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="Volume "
+        android:layout_gravity="center"
+        android:id="@+id/title"/>
+
+
+    <SeekBar
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#1e1d1d"
+        android:id="@+id/sb"
+        android:background="#cc1313"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
